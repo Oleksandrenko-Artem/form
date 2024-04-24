@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form class="form">
+        <h2>contact us</h2>
+        <p>Please drop us a line below and we'll get in touch with you shortly!</p>
+            <label for="">
+                <span class="red">Name</span>
+                <input type="text" name="name" required>
+            </label>
+            <label for="">
+                <span class="red">E-mail</span>
+                <input type="email" name="e-mail" id="" required>
+            </label>
+            <label for="">
+                <span>Phone</span>
+                <input type="tel" name="phone" id="">
+            </label>
+            <div class="group">
+                <span>Contact me by</span>
+                <div class="radio-group">
+                    <Label><input type="radio" name="contact" id="" checked>E-mail</Label>
+                    <Label><input type="radio" name="contact" id="">Phone</Label>
+                </div>
+            </div>
+            <label>
+                <span>Question for</span>
+                <select name="select" id="">
+                    <option>-- Please Select</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                </select>
+            </label>
+            <label>
+                <span class="red">Message</span>
+                <textarea name="message" id="" required></textarea>
+            </label>
+        <button type="submit" class="button">Submit</button>
+    </form>
+</body>
+</html>
